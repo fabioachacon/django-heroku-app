@@ -26,7 +26,7 @@ SECRET_KEY = 'fuu2-d*hyllddy+cyq_k2uh3l@_*g*hildb@5gf1@s@bxx^63m'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['callsystemapp.herokuapp.com/']
+ALLOWED_HOSTS = ['callsystemapp.herokuapp.com']
 
 
 # Application definition
