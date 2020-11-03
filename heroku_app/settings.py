@@ -24,7 +24,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'fuu2-d*hyllddy+cyq_k2uh3l@_*g*hildb@5gf1@s@bxx^63m'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['callsystemapp.herokuapp.com', 
                  '127.0.0.1:8000', 
