@@ -26,7 +26,9 @@ SECRET_KEY = 'fuu2-d*hyllddy+cyq_k2uh3l@_*g*hildb@5gf1@s@bxx^63m'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['callsystemapp.herokuapp.com', '127.0.0.1:8000', '0.0.0.0']
+ALLOWED_HOSTS = ['callsystemapp.herokuapp.com', 
+                 '127.0.0.1:8000', 
+                 '0.0.0.0']
 
 
 # Application definition
@@ -50,6 +52,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'whitenoise.middleware.WhiteNoiseMiddleware'
 ]
 
 ROOT_URLCONF = 'heroku_app.urls'
